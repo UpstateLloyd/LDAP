@@ -1,0 +1,11 @@
+﻿@page "/"
+
+<AuthorizeView>
+    <Authorized Context="AuthenticationState">
+        <h1>Beginning</h1>
+        <h3>Welcome to the application</h3>
+    </Authorized>
+    <NotAuthorized>
+        <h2>You must login to access the application</h2>
+    </NotAuthorized>
+</AuthorizeView>
