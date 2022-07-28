@@ -70,3 +70,4 @@ C:\Users\lhotchkiss\source\repos\LDAP\bin\Debug\net5.0\runtimes\win\lib\netstand
 C:\Users\lhotchkiss\source\repos\LDAP\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
 C:\Users\lhotchkiss\source\repos\LDAP\obj\Debug\net5.0\RazorDeclaration\Pages\Login.razor.g.cs
 C:\Users\lhotchkiss\source\repos\LDAP\obj\Debug\net5.0\Razor\Pages\Login.razor.g.cs
+C:\Users\lhotchkiss\source\repos\LDAP\bin\Debug\net5.0\libman.json

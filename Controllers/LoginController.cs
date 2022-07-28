@@ -16,7 +16,7 @@ namespace LDAP.Controllers
         {
 
             //The domain to look for our user
-            string path = "LDAP://servidor.dominio.local/dc=servidor,dc-dominio,dc=local";
+            string path = "LDAP://upstatesvr.upstatedoor.local/dc=upstatedoor,dc=local";
 
             try
             {
@@ -37,7 +37,7 @@ namespace LDAP.Controllers
                             {
                                 foreach (Object myCollection in fields[ldapField])
                                 {
-                                    if (ldapField == "employeetype")
+                                    if (ldapField == "sAMAccountName")//userPrincipalName
                                     {
                                         role = myCollection.ToString().ToLower();
                                     }
